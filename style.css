@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    margin: 0;
+    line-height: 1.5;
+
+}
+
+h3 {
+    color: white;
+}
+
+section {
+    margin: 20% 1.5rem;
+}
+
+div {
+    padding: 1.5rem;
+}
+
+span {
+    color: hsl(179, 62%, 60%);
+    margin: auto;
+    display: inline-block;
+}
+
+.card-1 {
+    background-color: white;
+    color: hsl(218, 22%, 67%);
+    border-radius: 10px 10px 0 0;
+}
+
+.top-heading {
+    color: hsl(179, 62%, 43%);
+}
+
+.light-green {
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+
+.card-2 {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.card-3 {
+    background-color: hsl(179, 62%, 60%);
+    border-radius: 0 0 10px 10px;
+}
+
+.card-2,
+.card-3 {
+    color: hsl(204, 30%, 93%);
+}
+
+.card-info {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.card-btn {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border-color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+span.price {
+    color: inherit;
+    font-weight: 700;
+    font-size: xx-large;
+    margin-right: 3px;
+}
+
+@media (min-width: 1000px) {
+    section {
+        width: 42%;
+        margin: 50px;
+        transform: translate(50%, 50%);
+    }
+
+    .card-1 {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .card-2 {
+        width: 50%;
+        display: inline-block;
+        float: left;
+        border-bottom-left-radius: 10px;
+    }
+
+    .card-3 {
+        width: 50%;
+        display: inline-block;
+        float: right;
+        border-radius: 0 0 10px 0;
+    }
+
+    .card-3 p {
+        margin-bottom: 6px
+    }
+
+    .card-btn {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+
+}
